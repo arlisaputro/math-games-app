@@ -2,6 +2,11 @@
 
 A comprehensive collection of educational math games and puzzles built with HTML, CSS, and JavaScript.
 
+## 📱 Available Versions
+
+- **🌐 Web App** (Current): Play directly in your browser
+- **📱 Android APK**: [math-games-apk](https://github.com/arlisaputro/math-games-apk) - Native Android application
+
 ## Features
 
 ### Game Categories
@@ -56,9 +61,14 @@ math-games/
 
 ## Installation
 
+### Web Version (Current)
 1. Clone this repository
 2. Open `index.html` in any modern web browser
 3. Start playing!
+
+### Android Version
+For Android devices, check out the native APK version:
+**[Math Games APK](https://github.com/arlisaputro/math-games-apk)**
 
 ## Browser Compatibility
 
