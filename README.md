@@ -2,6 +2,10 @@
 
 A comprehensive collection of educational math games and puzzles built with HTML, CSS, and JavaScript.
 
+## 🎮 Play Now
+
+**[🌐 Play Online - Click Here!](https://arlisaputro.github.io/math-games-app/)**
+
 ## 📱 Available Versions
 
 - **🌐 Web App** (Current): Play directly in your browser
