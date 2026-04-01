@@ -67,6 +67,10 @@ math-games/
 - Safari 12+
 - Edge 79+
 
+## Contact
+
+Follow us on Instagram: [@bitarbas_gaming](https://instagram.com/bitarbas_gaming)
+
 ## License
 
 MIT License - Feel free to use and modify for educational purposes.

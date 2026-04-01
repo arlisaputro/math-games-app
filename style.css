@@ -98,6 +98,37 @@ h1 {
     font-style: italic;
 }
 
+.contact-section {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.contact-info h3 {
+    color: #FFD700;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.contact-info a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #45a049;
+    text-decoration: underline;
+}
+
 #game-area {
     background: rgba(255, 255, 255, 0.1);
     padding: 30px;
