@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Math Games</h1>
+        
+        <div class="game-selector">
+            <h2>Math Games</h2>
+            <div class="game-category">
+                <button onclick="startGame('addition')">Addition</button>
+                <button onclick="startGame('subtraction')">Subtraction</button>
+                <button onclick="startGame('multiplication')">Multiplication</button>
+                <button onclick="startGame('division')">Division</button>
+            </div>
+            
+            <h2>Math Puzzles</h2>
+            <div class="game-category">
+                <button onclick="startGame('equation')">Missing Number</button>
+                <button onclick="startGame('pattern')">Number Pattern</button>
+                <button onclick="startGame('logic')">Logic Puzzle</button>
+                <button onclick="startGame('algebra')">Simple Algebra</button>
+            </div>
+            
+            <h2>Logic Games</h2>
+            <div class="game-category">
+                <button onclick="startGame('memory')">Memory Match</button>
+                <button onclick="startGame('sequence')">Number Sequence</button>
+            </div>
+        </div>
+
+        <div id="game-area" class="hidden">
+            <div class="stats">
+                <div class="score">Score: <span id="score">0</span></div>
+                <div class="level">Level: <span id="level">1</span></div>
+                <div class="progress">
+                    <div class="progress-bar">
+                        <div id="progress-fill"></div>
+                    </div>
+                    <span id="progress-text">0/5</span>
+                </div>
+            </div>
+            <div class="question">
+                <div id="math-question" class="question-type">
+                    <span id="question"></span>
+                    <input type="number" id="answer" placeholder="Your answer">
+                </div>
+                
+                <div id="memory-game" class="question-type hidden">
+                    <div id="memory-grid"></div>
+                </div>
+                
+                <div id="sequence-game" class="question-type hidden">
+                    <div id="sequence-display"></div>
+                    <input type="number" id="sequence-input" placeholder="Next number">
+                </div>
+                
+                <div id="puzzle-game" class="question-type hidden">
+                    <div id="puzzle-display"></div>
+                    <div id="puzzle-hint"></div>
+                    <input type="number" id="puzzle-input" placeholder="Your answer">
+                </div>
+                
+                <button onclick="checkAnswer()">Submit</button>
+            </div>
+            <div id="feedback"></div>
+            <div class="game-controls">
+                <button onclick="nextQuestion()">Next Question</button>
+                <button onclick="endGame()" class="end-game-btn">End Game</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
